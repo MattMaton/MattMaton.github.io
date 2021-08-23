@@ -104,7 +104,7 @@ h1 {
     }
 
 /* Container around content */
-.container {
+.textbox {
     padding: 10px 40px;
     position: relative;
     background-color: inherit;
@@ -112,7 +112,7 @@ h1 {
 }
 
     /* The circles on the timeline */
-    .container::after {
+    .textbox::after {
         content: '';
         position: absolute;
         width: 25px;
@@ -185,14 +185,14 @@ h1 {
     }
 
     /* Full-width containers */
-    .container {
+    .textbox {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
     }
 
         /* Make sure that all arrows are pointing leftwards */
-        .container::before {
+        .textbox::before {
             left: 60px;
             border: medium solid white;
             border-width: 10px 10px 10px 0;
