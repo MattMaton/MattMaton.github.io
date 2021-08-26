@@ -15,3 +15,9 @@ $(document).ready(function () {
         $('#page-content-wrapper').load('freelance.html');
     })
 });
+
+$(document).ready(function () {
+    $('#prevprojects').click(function () {
+        $('#page-content-wrapper').load('prev-projects.html');
+    })
+});
