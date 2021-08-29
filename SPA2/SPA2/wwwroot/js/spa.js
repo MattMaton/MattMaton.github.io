@@ -21,3 +21,9 @@ $(document).ready(function () {
         $('#page-content-wrapper').load('prev-projects.html');
     })
 });
+
+$(document).ready(function () {
+    $('#indexpanel').click(function () {
+        $('#page-content-wrapper').load('indexpanel.html');
+    })
+});
