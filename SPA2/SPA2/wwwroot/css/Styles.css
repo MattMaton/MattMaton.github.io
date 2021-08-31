@@ -20,7 +20,7 @@
     padding-top: 50px;
     text-align: center;
     vertical-align: bottom;
-    padding-bottom:50px;
+    padding-bottom:70px;
 }
 
 body {
@@ -67,14 +67,24 @@ h1 {
     font-size: 32px;
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: row;
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
 }
 
-@media (max-width: 100%) {
-    .flex-container {
-        flex-direction: column;
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    vertical-align: bottom;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+    .column {
+        width: 100%;
     }
 }
 
