@@ -227,7 +227,7 @@ h1 {
 }
 /* The actual content */
 .content {
-    padding: 20px 30px;
+    padding: 10px 10px;
     background-color: #AAABB8;
     position: relative;
     border-radius: 6px;
