@@ -1,4 +1,8 @@
-﻿﻿header {
+﻿﻿* {
+    box-sizing: border-box;
+}
+
+header {
     font-family: sans-serif;
     word-wrap: break-word;
     width: 100%;
@@ -8,6 +12,20 @@
     margin: 0px;
     border-width: 0;
     background-color: #25274D;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.freelance {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    text-align: center;
 }
 
 .navBar {
@@ -33,7 +51,6 @@
 
 
 .navBar a:hover {
-    background-color: #464866;
     color: white;
     cursor: pointer;
 }
@@ -90,18 +107,18 @@ h1 {
     font-size: 32px;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
+.imageContainer {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5px;
+        width: 100%;
+        justify-content: center;
 }
 
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-    vertical-align: bottom;
+.item {
+    margin: 5px;
+    width:  290px;
+    height: 180px;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */

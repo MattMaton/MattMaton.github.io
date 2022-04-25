@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -30,44 +30,32 @@
             </H1>
             <H2>Software Developer</H2>
         </div>
-        <table style="width: 100%;height: 100%;text-align:center;border-width: 0px">
-            <tr>
-                <td colspan="3" style="padding:50px">
-                    <h2><span id="datetime"></span>, welcome to my website</h2>
-                    <p>Here you will find an overview of my previous experience and projects both academically and professionally.</p>
-                    <p>Below are the links to my Linkedin, GitHub and PeoplePerHour accounts. Please use these to either get in touch or view some of my work.</p>
-                    <script>
-                        var d = new Date();
-                        var t = d.getHours();
-                        var greeting = "";
+        <div class="center">
+            <strong><h2><span id="datetime"></span>, I'm Matt.</h2></strong>
+            <strong><p>Here you will find an overview of my previous experience and projects both academically and professionally.</p></strong>
+            <p>I am Software Developer who has worked both within a company and on a freelance basis. I am currently studying for my BSc in 'Computing and Software Development'. Alongside my studies I also developer informative dashboards for compaines using Microsoft Power BI.</p>
+            <p>Below are the links to my Linkedin, GitHub and PeoplePerHour pages. Please use these to either get in touch or view some of my work.</p>
+        </br>
+            <script>
+                var d = new Date();
+                var t = d.getHours();
+                var greeting = "";
 
-                        if (t >= 18)
-                            greeting = "Good evening";
-                        else if (t >= 12)
-                            greeting = "Good afternoon";
-                        else if (t >= 0)
-                            greeting = "Good morning";
+                if (t >= 18)
+                    greeting = "Good evening";
+                else if (t >= 12)
+                    greeting = "Good afternoon";
+                else if (t >= 0)
+                    greeting = "Good morning";
 
-                        document.getElementById("datetime").innerHTML = greeting;
-                    </script>
-                </td>
-            </tr>
-            <tr style="width:30%;margin-bottom: 50px;">
-                <td>
-                    <div class="row">
-                        <div class="column" style="vertical-align:central">
-                            <a href="https://github.com/MattMaton"><img src="img/githublogo.png" alt="Github Logo" style="width:50%"></a>
-                        </div>
-                        <div class="column" style="vertical-align:text-bottom">
-                            <a href="https://www.linkedin.com/in/matt-maton-172b64189/"><img src="img/linked-in.jpg" alt="LinkedIn Logo" style="width:50%"></a>
-                        </div>
-                        <div class="column" style="vertical-align:top">
-                            <a href="https://www.peopleperhour.com/freelancer/technology-programming/matt-maton-power-bi-and-microsoft-excel-vnvzjvw"><img src="img/pph.jpg" alt="PeoplePerHour Logo" style="width:50%"></a>
-                        </div>
-                    </div>
-                </td>
-            </tr>
-        </table>
+                document.getElementById("datetime").innerHTML = greeting;
+            </script>
+        </div>
+        <div class="imageContainer">
+            <a href="https://github.com/MattMaton"><img class="item" src="img/githublogo.png" alt="Github Logo"></a>
+            <a href="https://www.linkedin.com/in/matt-maton-172b64189/"><img class="item" src="img/linked-in.jpg" alt="LinkedIn Logo"></a>                
+            <a href="https://www.peopleperhour.com/freelancer/technology-programming/matt-maton-power-bi-and-microsoft-excel-vnvzjvw"><img class="item" src="img/pph.jpg" alt="PeoplePerHour Logo"></a>                    
+        </div>
     </div>
 </body>
 </html>
