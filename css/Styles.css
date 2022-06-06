@@ -115,11 +115,21 @@ h1 {
         justify-content: center;
 }
 
-.item {
-    margin: 5px;
-    width:  290px;
-    height: 180px;
+.imageContainer .item{
+    padding: 5px;
+    width: 250px;
+    height: 150px;
+    margin: auto;
+    text-align: center;
 }
+
+.item {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 500px) {
