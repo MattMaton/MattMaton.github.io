@@ -315,3 +315,21 @@ h1 {
         left: 0%;
     }
 }
+
+.freelance{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.freelance p, strong{
+    background-color:#25274D;
+    color:white;
+    padding: 20px;
+    width: 100%;
+}
+
+.freelance img{
+    max-width: 80%;
+    height: auto;
+}
