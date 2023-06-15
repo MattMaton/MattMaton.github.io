@@ -97,11 +97,11 @@ h1 {
 }
 
 .imageContainer {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5px;
-        width: 100%;
-        justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    width: 100%;
+    justify-content: center;
 }
 
 .imageContainer .item{
@@ -371,5 +371,18 @@ h1 {
 
 ul{
     padding:0px;
+    margin: 0px;
+}
+
+#experience-img{
+    width: 30px;
+    height:30px;
+    margin:1px
+}
+
+.content img{
+    width: auto;
+    height: 150px;
+    padding: 0;
     margin: 0px;
 }
