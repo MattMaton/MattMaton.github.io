@@ -420,3 +420,7 @@ ul{
     box-shadow: 0px 0px 0px lightgray;
     margin: 0px;    
 }
+
+@media screen and (max-width: 350px) { 
+    .experienceImg { display: none; }  
+}

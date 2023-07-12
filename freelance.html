@@ -23,10 +23,13 @@
         </ul>
         <script>
           let name = "";
+          let includeImg = false;
           if(screen.width<=380){
               name = "Experience";
+              includeImg = false;
           }else{
               name = "Previous Experience";
+              includeImg = true;
           }
           document.getElementById("prevExper").innerHTML= name;
       </script>
@@ -37,7 +40,7 @@
               </H1>
           </div>
           <div class="freelance">
-            <div style="width:50%;text-align: center;padding: 5px;margin-left: auto;margin-right: auto;margin-bottom: 30px;">
+            <div style="width:75%;text-align: center;padding: 5px;margin-left: auto;margin-right: auto;margin-bottom: 30px;">
               <p>
                 When the Covid-19 pandemic hit, I decided to pursue my passion for Computer Studies at University. To finance my studies, I leveraged my Power BI knowledge and began working with businesses to create customised dashboards.
               </p>
