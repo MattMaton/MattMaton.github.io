@@ -19,8 +19,17 @@
         <ul class="navBar">
             <li><a href="index.html"><strong style="font-size:12pt">Home</strong></a></li>
             <li class="active"><a href="freelance.html"><strong style="font-size:12pt">Freelance</strong></a></li>
-            <li><a href="experience.html"><strong style="font-size:12pt">Previous Experience</strong></a></li>
+            <li><a href="experience.html"><strong id="prevExper" style="font-size:12pt">Previous Experience</strong></a></li>
         </ul>
+        <script>
+          let name = "";
+          if(screen.width<=380){
+              name = "Experience";
+          }else{
+              name = "Previous Experience";
+          }
+          document.getElementById("prevExper").innerHTML= name;
+      </script>
         <div class="container" style="width:100%;height:100%;">
           <div class="front_page">
               <H1 style="font-size:46pt;font-family:Kaisei HarunoUmi, sans-serif;" class="fade-in">
